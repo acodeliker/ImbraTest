@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{f5ab94b7-cff2-4726-b8d7-61fe45fbab34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\include">
+      <UniqueIdentifier>{fc7a4593-ef90-497e-9ac4-79fffb7bd448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\src">
+      <UniqueIdentifier>{9a8540eb-5857-4fc1-88e0-601c2612e132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imebra">
+      <UniqueIdentifier>{bbb1ae85-5da0-471a-a261-e73efdefa79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imebra\include">
+      <UniqueIdentifier>{42d451d8-c055-4f3c-b9bc-05dcef7f68ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imebra\src">
+      <UniqueIdentifier>{323b68ff-d2c0-41b0-96a0-8e18564057ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Imbratest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImbratestDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImbratestView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\baseObject.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\baseStream.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\charsetConversion.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\criticalSection.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\exception.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\huffmanTable.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\memory.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\memoryStream.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\stream.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\streamController.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\streamReader.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\streamWriter.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="base\src\thread.cpp">
+      <Filter>base\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\buffer.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\charsetsList.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\codec.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\codecFactory.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\colorTransform.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\colorTransformsFactory.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\data.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataGroup.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandler.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerDate.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerDateTime.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerDateTimeBase.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerString.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringAE.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringAS.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringCS.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringDS.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringIS.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringLO.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringLT.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringPN.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringSH.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringST.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringUI.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringUnicode.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerStringUT.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataHandlerTime.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dataSet.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dibCodec.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dicomCodec.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\dicomDict.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\drawBitmap.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\image.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\jpegCodec.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\LUT.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\modalityVOILUT.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\MONOCHROME1ToMONOCHROME2.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\MONOCHROME1ToRGB.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\MONOCHROME2ToRGB.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\MONOCHROME2ToYBRFULL.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\PALETTECOLORToRGB.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\RGBToMONOCHROME2.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\RGBToPALETTECOLOR.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\RGBToYBRFULL.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\RGBToYBRPARTIAL.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\transaction.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\transform.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\transformBuffers.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\transformHighBit.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\transformsChain.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\viewHelper.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\VOILUT.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\waveform.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\YBRFULLToMONOCHROME2.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\YBRFULLToRGB.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imebra\src\YBRPARTIALToRGB.cpp">
+      <Filter>imebra\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Imbratest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImbratestDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImbratestView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\baseObject.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\baseStream.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\charsetConversion.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\configuration.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\criticalSection.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\exception.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\huffmanTable.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\memory.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\memoryStream.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\stream.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\streamController.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\streamReader.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\streamWriter.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\include\thread.h">
+      <Filter>base\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\buffer.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\bufferStream.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\charsetsList.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\codec.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\codecFactory.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\colorTransform.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\colorTransformsFactory.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\data.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataCollection.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataGroup.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandler.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerDate.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerDateTime.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerDateTimeBase.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerNumeric.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerString.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringAE.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringAS.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringCS.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringDS.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringIS.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringLO.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringLT.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringPN.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringSH.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringST.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringUI.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringUnicode.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerStringUT.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataHandlerTime.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dataSet.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dibCodec.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dicomCodec.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\dicomDict.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\drawBitmap.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\image.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\imebra.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\imebraDoc.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\jpegCodec.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\LUT.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\modalityVOILUT.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\MONOCHROME1ToMONOCHROME2.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\MONOCHROME1ToRGB.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\MONOCHROME2ToRGB.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\MONOCHROME2ToYBRFULL.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\PALETTECOLORToRGB.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\RGBToMONOCHROME2.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\RGBToPALETTECOLOR.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\RGBToYBRFULL.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\RGBToYBRPARTIAL.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\transaction.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\transform.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\transformBuffers.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\transformHighBit.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\transformsChain.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\viewHelper.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\VOILUT.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\waveform.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\YBRFULLToMONOCHROME2.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\YBRFULLToRGB.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imebra\include\YBRPARTIALToRGB.h">
+      <Filter>imebra\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Imbratest.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ImbratestDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Imbratest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Imbratest.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GdiPlus.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\Imbratest.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+1、stdafx.h中
+#include "gdiplus.h"
+using namespace Gdiplus;
+#pragma comment (lib, "Gdiplus.lib")
+
+2、APP中：
+protected:
+    ULONG_PTR m_gdiplusToken;
+
+3、InitInstance()中：
+Gdiplus::GdiplusStartupInput gdiplusStartupInput;
+Gdiplus::GdiplusStartup(&m_gdiplusToken, &gdiplusStartupInput, NULL);
+
+4、::ExitInstance()中：
+Gdiplus::GdiplusShutdown(m_gdiplusToken);
+
+5、::OnPaint() 中：
+
+	else
+	{
+		//using namespace Gdiplus;
+
+		CPaintDC dc(this);
+		Graphics graphics(dc.m_hDC);
+
+		
+		// Pen can also be constructed using a brush or another pen. 
+                // There is a second parameter - a width which defaults to 1.0f
+		
+		Pen	blue (Color(255, 0, 0, 255));
+		Pen red  (Color(255, 255, 0, 0));
+
+		int y = 256;
+		for (int x = 0; x < 256; x += 5)
+		{
+			graphics.DrawLine(&blue, 0, y, x, 0);
+			graphics.DrawLine(&red, 256, x, y, 256);  
+			y -= 5;
+		}
+		
+		//Image myimage(L"E:\\Brain.bmp");
+		//graphics.DrawImage (& myimage,0,0);
+
+using namespace Gdiplus;
