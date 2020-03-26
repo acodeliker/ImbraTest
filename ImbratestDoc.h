@@ -17,7 +17,7 @@ public:
 public:
 
 // ÖØÐ´
-	public:
+public:
 	virtual BOOL OnNewDocument();
 	virtual void Serialize(CArchive& ar);
 
